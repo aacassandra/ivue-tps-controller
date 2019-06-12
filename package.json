@@ -1,0 +1,36 @@
+{
+  "name": "@aacassandra/ivue-tsp-controller",
+  "version": "19.6.12",
+  "description": "Plugins controller for iVue CLI on typescript mode",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "rebuild": "./cordev",
+    "production": "rm -rf lib && tsc && npm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aacassandra/ivue-tsp-controller.git"
+  },
+  "author": "Alauddin Afif Cassandra<alauddinafifcassandra@programmer.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aacassandra/ivue-tsp-controller/issues"
+  },
+  "homepage": "https://github.com/aacassandra/ivue-tsp-controller#readme",
+  "devDependencies": {
+    "typescript": "^3.4.2",
+    "vue": "^2.6.10"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "rxjs": "^6.5.1"
+  }
+}

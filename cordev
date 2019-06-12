@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Removing dist directory.."
+rm -rf lib
+
+echo "Compiling.."
+tsc
+
+echo "Removing directory ivues.."
+rm -rf ../../HybridApps/vue/ivues/node_modules/aac-ionic-vue-ts-plugins/lib
+
+echo "Copying directory to ivues"
+cp -R lib ../../HybridApps/vue/ivues/node_modules/aac-ionic-vue-ts-plugins
+
+exit
