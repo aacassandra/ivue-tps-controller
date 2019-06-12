@@ -1,6 +1,6 @@
 import _Vue from "vue";
 import Controller, { ClassController } from "./controller";
-export function IonicVueAac(Vue: typeof _Vue, options?: any): void {
+export function iVuePlugTSC(Vue: typeof _Vue, options?: any): void {
   // Implements Plugins
   Vue.prototype.ionic = Controller;
 }

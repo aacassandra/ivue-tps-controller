@@ -1,6 +1,6 @@
 {
   "name": "@aacassandra/ivue-tsp-controller",
-  "version": "19.6.12",
+  "version": "19.6.122",
   "description": "Plugins controller for iVue CLI on typescript mode",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
